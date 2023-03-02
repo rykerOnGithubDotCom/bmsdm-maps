@@ -1,0 +1,26 @@
+"dm_rocketfire"
+{
+	// The 'non mapper' name of the level.
+	"name"      "ROCKET FIRE"
+	
+	// The number of recommended players.
+	"players"   "4 - 8 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_rocketfire_0"
+		"1" "multiplayer/map_backgrounds/dm_rocketfire_1"
+		"2" "multiplayer/map_backgrounds/dm_rocketfire_2"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "The satellite launch system remained largely intact after the Resonance Cascade. It may now be the only hope of stopping a further alien incursion..."
+		"1" "The satellite launch system remained largely intact after the Resonance Cascade. It may now be the only hope of stopping a further alien incursion..."
+		"2" "The satellite launch system remained largely intact after the Resonance Cascade. It may now be the only hope of stopping a further alien incursion..."
+	}
+}

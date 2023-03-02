@@ -1,0 +1,120 @@
+//BiolabSoundscapes
+
+
+"bl.util.metalhits"	
+{	
+	"playrandom"
+	{
+		"volume"	"0.7,1.0"
+		"pitch"		"90,110"
+		"time"		"4,8"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"BMS_ambience\soundscape\metalhit_far1.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far2.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far3.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far4.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far5.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far6.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far7.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far8.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far9.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far10.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far11.wav"
+			"wave"	"BMS_ambience\soundscape\metalhit_far12.wav"
+		}
+	}
+}
+
+"bl_trainstation"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"bms_ambience\room_ambience\r_ambience_large4.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"110"
+		"wave"		"bms_ambience\room_ambience\r_ambience_med13.wav"
+	}
+
+	"playsoundscape"
+	{
+		"volume"	"0.8"
+		"name"		"bl.util.metalhits"		
+	}
+}
+
+"bl_lobby"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"90"
+		"wave"		"bms_ambience\room_ambience\r_ambience_med12.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"70"
+		"wave"		"bms_ambience\room_ambience\r_ambience_med9.wav"
+	}
+
+	"playsoundscape"
+	{
+		"volume"	"0.8"
+		"name"		"bl.util.metalhits"		
+	}
+}
+
+"bl_indoor"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"bms_ambience\room_ambience\r_ambience_med1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"90"
+		"wave"		"bms_ambience\room_ambience\r_ambience_large8.wav"
+	}
+
+	"playsoundscape"
+	{
+		"volume"	"0.8"
+		"name"		"bl.util.metalhits"		
+	}
+}
+
+"bl_xenoflora"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"bms_ambience\room_ambience\r_ambience_xen4.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"80"
+		"wave"		"bms_ambience\room_ambience\r_ambience_xen5.wav"	
+	}
+}
+

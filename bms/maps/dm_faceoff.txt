@@ -1,0 +1,26 @@
+"dm_biolab"
+{
+	// The 'non mapper' name of the level.
+	"name"      "FACEOFF"
+	
+	// The number of recommended players.
+	"players"   "4 - 24 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_faceoff_0"
+		"1" "multiplayer/map_backgrounds/dm_faceoff_1"
+		"2" "multiplayer/map_backgrounds/dm_faceoff_2"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "The admin circle of the HMC Depot was originally a sweet compund for the employed presonnel, but after heavy battles it's only a smoking heap of rubble... "
+		"1" "The admin circle of the HMC Depot was originally a sweet compund for the employed presonnel, but after heavy battles it's only a smoking heap of rubble..."
+		"2" "The admin circle of the HMC Depot was originally a sweet compund for the employed presonnel, but after heavy battles it's only a smoking heap of rubble..."
+	}
+}

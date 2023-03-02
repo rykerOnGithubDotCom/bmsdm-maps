@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	"$basetexture"	"maps/dm_biolab/bio_deconscreen_30pro"
+                "$selfillum" 1
+	"$selfillumtint"	"[.55 .55 .55]"
+	"$bumpmap" "maps/dm_biolab/bio_deconscreen_normal"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.6 .6 .6]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms, bio"
+
+}

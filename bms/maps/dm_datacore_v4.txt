@@ -1,0 +1,24 @@
+"dm_datacore"
+{
+	// The 'non mapper' name of the level.
+	"name"      "DATACORE"
+	
+	// The number of recommended players.
+	"players"   "4 - 12 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_datacore_0"
+		"1" "multiplayer/map_backgrounds/dm_datacore_1"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "Deep within the Sector E complex lies a highly classified research lab. All of it's most important files are within a server called 'the datacore'..."
+		"1" "Deep within the Sector E complex lies a highly classified research lab. All of it's most important files are within a server called 'the datacore'..."
+	}
+}

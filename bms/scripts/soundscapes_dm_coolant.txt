@@ -1,0 +1,1686 @@
+
+//================================================================================================================================
+//						dm_coolant Soundscapes
+//================================================================================================================================
+// Index
+//	coolant.control ()
+//	coolant.tank ()
+//	coolant.kitchen ()
+//	coolant.stairwell ()
+//	coolant.orange ()
+//	coolant.storage1 ()
+//	coolant.storage2 ()
+//	coolant.storage3 ()
+//	coolant.storage4 ()
+//	coolant.elevator ()
+//	coolant.vent ()
+//	coolant.ice ()
+//	coolant.maintain1 ()
+//	coolant.maintain2 ()
+//	coolant.maintain3 ()
+//	coolant.corridor1 ()
+//	coolant.corridor2 ()
+//	coolant.hub ()
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.control"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"bms_ambience\room_ambience\r_ambience_large2.wav"
+		"pitch"		"100"
+	}
+
+    "playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1.2"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_comp2.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_comp1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.tank"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"bms_ambience\room_ambience\r_ambience_large4.wav"
+		"pitch"		"100"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.3"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrical6.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.kitchen"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med4.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med9.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience\machine_ambience\m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\machine_ambience\m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\machine_ambience\m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience\machine_ambience\m_ambience_vent2.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_objects\hum\hum2.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.stairwell"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med1.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_objects\hum\hum2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				"bms_objects\white_noise.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.orange"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med11.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_comp1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_comp3.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent2.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.storage1"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large4.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	     "0.5"
+		"wave"		      "bms_ambience\room_ambience\r_ambience_large2.wav"
+		"pitch"		     "100"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent2.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.storage2"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large4.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	        "0.4"
+		"wave"		        "bms_ambience\room_ambience\r_ambience_large2.wav"
+		"pitch"		        "100"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.2"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrical6.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent2.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum3.wav"
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.storage3"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med10.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrical6.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.storage4"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.3"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med8.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med4.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.2"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum2.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.elevator"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_small1.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.vent"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_vent1.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.ice"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med6.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med1.wav"
+	}
+    
+    
+    "playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_comp3.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.maintain1"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large2.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med9.wav"
+	}
+    
+    
+    "playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.maintain2"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large2.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med9.wav"
+	}
+    
+    
+    "playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_objects\fans\fan5.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.9"
+		"pitch"				"100"
+		"wave"				"bms_objects\hum\hum2.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum2.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.4"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow1.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.maintain3"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large2.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med9.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.2"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.corridor1"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med1.wav"
+	}
+
+    "playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large7.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.3"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.3"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.3"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.3"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe2.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_vent2.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.corridor2"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.7"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large2.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med9.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_comp2.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipe1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.5"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_pipeflow2.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"1.0"
+		"pitch"				"100"
+		"wave"				""
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}
+
+
+//--------------------------------------------------------------------------------------------------------------------------------
+
+"coolant.hub"
+{
+	"dsp"					"0"
+	"dsp_volume"			"1.0"
+
+	"playlooping"
+	{
+		"volume"			"0.8"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_large4.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.6"
+		"pitch"				"100"
+		"wave"				"bms_ambience\room_ambience\r_ambience_med11.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"			"0.2"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"0"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum2.wav"
+		"attenuation"		"1"
+		"position"			"1"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"2"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum2.wav"
+		"attenuation"		"1"
+		"position"			"3"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"4"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrical6.wav"
+		"attenuation"		"1"
+		"position"			"5"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum1.wav"
+		"attenuation"		"1"
+		"position"			"6"
+	}
+
+	"playlooping"
+	{
+		"volume"			"0.1"
+		"pitch"				"100"
+		"wave"				"bms_ambience/machine_ambience/m_ambience_electrichum2.wav"
+		"attenuation"		"1"
+		"position"			"7"
+	}
+    
+}

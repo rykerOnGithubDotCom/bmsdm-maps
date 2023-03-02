@@ -1,0 +1,208 @@
+//FaceoffSoundscapes
+
+
+"fo.util.combat"	
+{	
+	"playrandom"
+	{
+		"volume"	"0.4,0.9"
+		"pitch"		"90,110"
+		"time"		"15,40"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_120dB"
+		"rndwave"
+		{
+			"wave"	"bms_ambience\soundscape\soundscape_farchopper1.wav"
+			"wave"	"bms_ambience\soundscape\soundscape_farchopper2.wav"
+			"wave"	"bms_ambience\soundscape\soundscape_farjet1.wav"
+			"wave"	"bms_ambience\soundscape\soundscape_farjet2.wav"
+			"wave"	"bms_ambience\soundscape\soundscape_farjet3.wav"
+		}
+	}
+}
+
+"fo.util.debris"	
+{	
+	"playrandom"
+	{
+		"volume"	"0.4,0.5"
+		"pitch"		"90,110"
+		"time"		"15,30"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_120dB"
+		"rndwave"
+		{
+			"wave"	"bms_ambience\object_physics\rocks_fall1.wav"
+			"wave"	"bms_ambience\object_physics\rocks_fall2.wav"
+			"wave"	"bms_ambience\object_physics\rocks_fall3.wav"
+			"wave"	"bms_ambience\object_physics\rocks_fall4.wav"
+			"wave"	"bms_ambience\object_physics\rocks_fall5.wav"
+			"wave"	"bms_ambience\object_physics\rocks_fall6.wav"
+		}
+	}
+}
+
+"fo.util.metal"	
+{	
+	"playrandom"
+	{
+		"volume"	"0.4,0.7"
+		"pitch"		"90,110"
+		"time"		"20,50"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_110dB"
+		"rndwave"
+		{
+			"wave"	"bms_ambience\object_physics\metal_clang1.wav"
+			"wave"	"bms_ambience\object_physics\metal_clang2.wav"
+			"wave"	"bms_ambience\object_physics\metal_creak1.wav"
+			"wave"	"bms_ambience\object_physics\metal_creak2.wav"
+			"wave"	"bms_ambience\object_physics\metal_creak3.wav"
+			"wave"	"bms_ambience\object_physics\metal_creak4.wav"
+			"wave"	"bms_ambience\object_physics\metal_creak5.wav"
+			"wave"	"bms_ambience\object_physics\metal_creak6.wav"
+			"wave"	"bms_ambience\object_physics\break1.wav"
+			"wave"	"bms_ambience\object_physics\break2.wav"
+			"wave"	"bms_ambience\object_physics\break5.wav"
+			"wave"	"bms_ambience\object_physics\break6.wav"
+			"wave"	"bms_ambience\object_physics\break7.wav"
+
+		}
+	}
+}
+
+"fo_outdoor"
+{
+	"dsp"	"0"
+	"playrandom"
+	{
+		"volume"	"0.8"
+		"pitch"		"90,110"
+		"time"		"8,16"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"BMS_ambience\soundscape\soundscape_boom1.wav"
+			"wave"	"BMS_ambience\soundscape\soundscape_boom2.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"wave"		"BMS_ambience\room_ambience\r_ambience_outdoorbattle2.wav"
+	}
+
+	"playsoundscape"
+	{
+		"volume"	"0.5"
+		"name"		"fo.util.combat"		
+	}
+}
+
+"fo_garage"
+{
+	"dsp"	"0"
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"wave"		"bms_ambience\room_ambience\r_ambience_large2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"110"
+		"wave"		"bms_ambience\room_ambience\r_ambience_med12.wav"		
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.25"
+		"pitch"		"90,110"
+		"time"		"8,15"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"BMS_ambience\soundscape\soundscape_indoorboom3.wav"
+			"wave"	"BMS_ambience\soundscape\soundscape_indoorboom4.wav"
+			"wave"	"BMS_ambience\soundscape\soundscape_indoorboom5.wav"
+		}
+	}
+}
+
+
+"fo_indoor"
+{
+	"dsp"	"0"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"90"
+		"wave"		"bms_ambience\room_ambience\r_ambience_med3.wav"		
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"bms_ambience\room_ambience\r_ambience_large2.wav"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.25"
+		"pitch"		"90,110"
+		"time"		"8,15"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"BMS_ambience\soundscape\soundscape_indoorboom1.wav"
+			"wave"	"BMS_ambience\soundscape\soundscape_indoorboom3.wav"
+			"wave"	"BMS_ambience\soundscape\soundscape_indoorboom5.wav"
+		}
+	}
+}
+
+
+"fo_rubble"
+{
+	"dsp"	"0"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"bms_ambience\room_ambience\r_ambience_outdoorbattle2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"90"
+		"wave"		"bms_ambience\room_ambience\r_ambience_disaster_rumble6.wav"		
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"95"
+		"wave"		"ambient\levels\canals\windmill_wind_loop1.wav"
+	}
+
+	"playsoundscape"
+	{
+		"volume"	"0.8"
+		"name"		"fo.util.metal"		
+	}
+
+	"playsoundscape"
+	{
+		"volume"	"0.5"
+		"name"		"fo.util.debris"		
+	}
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vgui/multiplayer/map_backgrounds/q3dm17_0_16_10"
+	"$translucent" 1
+}

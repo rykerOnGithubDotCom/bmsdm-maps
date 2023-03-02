@@ -1,0 +1,24 @@
+"dm_residue"
+{
+	// The 'non mapper' name of the level.
+	"name"      "RESIDUE"
+	// The number of recommended players.
+	"players" "3 - 8 PLAYERS"
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_residue_0"
+		"1" "multiplayer/map_backgrounds/dm_residue_1"
+	}
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "Black Mesa's old and abandoned part of the facility,
+		rarely ever ventured to..."
+		"1" "An old part of the Black Mesa facility, not many alive
+		remember when it was in active use."
+		"2" "A port of bm_c2a4a by Tmob"
+	}
+}

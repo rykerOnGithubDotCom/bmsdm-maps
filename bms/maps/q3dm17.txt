@@ -1,0 +1,20 @@
+"q3dm17"
+{
+	// The 'non mapper' name of the level.
+	"name"      "Q3DM17"
+	
+	// The number of recommended players.
+	"players"   "2 - 8 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "The Longest Yard"
+		"1" "The Longest Yard"
+		"2" "The Longest Yard"
+	}
+}

@@ -1,0 +1,26 @@
+"dm_biolab"
+{
+	// The 'non mapper' name of the level.
+	"name"      "BIOLAB"
+	
+	// The number of recommended players.
+	"players"   "4 - 16 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_biolab_0"
+		"1" "multiplayer/map_backgrounds/dm_biolab_1"
+		"2" "multiplayer/map_backgrounds/dm_biolab_2"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "After the arriving of the H.E.C.U., the personnel of the Black Mesa biotech facility using their equipment for fighting against the invaders. For the marines most of these experiments appear questionable..."
+		"1" "After the arriving of the H.E.C.U., the personnel of the Black Mesa biotech facility using their equipment for fighting against the invaders. For the marines most of these experiments appear questionable..."
+		"2" "After the arriving of the H.E.C.U., the personnel of the Black Mesa biotech facility using their equipment for fighting against the invaders. For the marines most of these experiments appear questionable..."
+	}
+}

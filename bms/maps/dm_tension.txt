@@ -1,0 +1,26 @@
+"dm_tension"
+{
+	// The 'non mapper' name of the level.
+	"name"      "TENSION"
+	
+	// The number of recommended players.
+	"players"   "8 - 16 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_tension_0"
+		"1" "multiplayer/map_backgrounds/dm_tension_1"
+		"2" "multiplayer/map_backgrounds/dm_tension_2"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "Tensions are high on the surface of the BMRF..."
+		"1" "Tensions are high on the surface of the BMRF..."
+		"2" "Tensions are high on the surface of the BMRF..."
+	}
+}

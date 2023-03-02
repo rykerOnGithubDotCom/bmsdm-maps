@@ -1,0 +1,26 @@
+"dm_rail"
+{
+	// The 'non mapper' name of the level.
+	"name"      "SHIPPING"
+	
+	// The number of recommended players.
+	"players"   "2 - 6 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_shipping_0"
+		"1" "multiplayer/map_backgrounds/dm_shipping_1"
+		"2" "multiplayer/map_backgrounds/dm_shipping_2"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "Enough. We're shipping it..."
+		"1" "Enough. We're shipping it..."
+		"2" "Enough. We're shipping it..."
+	}
+}

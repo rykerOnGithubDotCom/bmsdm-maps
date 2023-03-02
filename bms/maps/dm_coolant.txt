@@ -1,0 +1,26 @@
+"dm_coolant"
+{
+	// The 'non mapper' name of the level.
+	"name"      "COOLANT"
+	
+	// The number of recommended players.
+	"players"   "4 - 16 PLAYERS"
+	
+	// Image materials to draw. Randomly chosen.
+	// Path relative to materials. Must point to a
+	// VMT.
+	"Images"
+	{
+		"0" "multiplayer/map_backgrounds/dm_coolant_0"
+		"1" "multiplayer/map_backgrounds/dm_coolant_1"
+		"2" "multiplayer/map_backgrounds/dm_coolant_2"
+	}
+	
+	// Map specific descriptions. Also randomly chosen.
+	"Descriptions"
+	{
+		"0" "A community map created by Dolmo"
+		"1" "A community map created by Dolmo"
+		"2" "A community map created by Dolmo"
+	}
+}

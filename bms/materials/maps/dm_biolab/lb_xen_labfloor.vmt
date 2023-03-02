@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{	
+	"$basetexture"	"lab/labfloor02"
+	"$basetexture2" "xen/xen_dirtfloor_001a"
+	"%tooltexture" 			"xen/xen_rockfloor_001a"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "mud"
+
+	"$blendmodulatetexture" 	"xen/blend/xen_modulate_001"
+	
+	"%keywords" "bms"
+}

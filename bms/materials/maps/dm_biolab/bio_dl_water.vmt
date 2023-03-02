@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "maps/dm_biolab/bio_dl_water"
+	"$additive" 1
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "13"
+		}
+	}
+}
